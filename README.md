@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: failure to copy necessary files into the image. The original Dockerfile attempts to run a Python script, app.py, which is not included in the image. This leads to a build failure. The solution Dockerfile demonstrates the correct method of copying the required file into the image.
